@@ -1,0 +1,20 @@
+package UT8;
+
+public class D2017_01_30_ej1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String cad1="Emilio";
+		String cad2=new String("Anaya");
+		String cad3=new String(cad2);
+		
+		if(cad1.equals("Andy")){
+			System.out.println(cad1.concat(" Rosique"));
+		}
+		if(cad1.equals("Emilio") && cad2.equals("Anaya")){
+			System.out.println(cad1.toString()+cad2.toString());
+			
+		}
+	}
+
+}
